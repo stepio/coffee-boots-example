@@ -10,8 +10,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication(scanBasePackages = {"io.github.stepio.examples.cache"})
 public class CoffeeBootsExampleApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CoffeeBootsExampleApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CoffeeBootsExampleApplication.class, args);
+    }
 
 }
